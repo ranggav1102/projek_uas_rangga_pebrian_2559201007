@@ -221,3 +221,63 @@ main{
     }
 
 }
+
+#Video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;  
+    border: none;
+    border-radius: 10px;
+}
+
+.guestbook{
+    max-width:700px;
+    margin:auto;
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+}
+
+button{
+    background:#cc0000;
+    color:#fff;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
+
+footer a:hover{
+    color:#29abe2;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(25px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+#home,
+#about,
+#profile,
+#galery,
+#video,
+#bukutamu{
+    animation:fadeUp 0.8s ease;
+}
